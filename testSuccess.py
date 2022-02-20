@@ -53,7 +53,7 @@ if __name__ == '__main__':
 #         # print(FormData.get('data')['Initiate']['FormDataJson'])
 
     # 邮件服务器测试
-     sendEmails('http://www.baidu.com', '791365710@qq.com')
+    sendEmails('http://www.baidu.com', '791365710@qq.com')
 
     getInitiateId(yb, 2)
 
