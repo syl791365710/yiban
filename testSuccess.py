@@ -6,7 +6,7 @@
 from getInitiateId import getInitiateId, latestShareUrl
 from sendMail import sendEmails
 from yiban import YiBan
-from yiban.config import url
+#from yiban.config import url
 
 
 if __name__ == '__main__':
@@ -41,19 +41,19 @@ if __name__ == '__main__':
     print('\n' + "getForm:")
     print(Form.get('data'))
 
-    InitiateId = url.split('=')[1]
-    print("InitiateId"+InitiateId)
-    if InitiateId:
-        ShareUrl = yb.getShareUrl(InitiateId)
-        print('\n' + "转发审批表单:")
-        print(ShareUrl.get('data')['uri'])
+#     InitiateId = url.split('=')[1]
+#     print("InitiateId"+InitiateId)
+#     if InitiateId:
+#         ShareUrl = yb.getShareUrl(InitiateId)
+#         print('\n' + "转发审批表单:")
+#         print(ShareUrl.get('data')['uri'])
 
-        print('\n' + 'getFormData：')
-        FormData = yb.getFormData(InitiateId)
-        # print(FormData.get('data')['Initiate']['FormDataJson'])
+#         print('\n' + 'getFormData：')
+#         FormData = yb.getFormData(InitiateId)
+#         # print(FormData.get('data')['Initiate']['FormDataJson'])
 
     # 邮件服务器测试
-    # sendEmails('http://www.baidu.com', '1162335221@qq.com')
+     sendEmails('http://www.baidu.com', '791365710@qq.com')
 
     getInitiateId(yb, 2)
 
