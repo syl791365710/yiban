@@ -1,13 +1,8 @@
 data = [
     {
-        'ACCOUNT': '13888888888',
-        'PASSWD': 'WeiSanJin',
-        'Email': '1162335221@qq.com'
-    },
-    {
-        'ACCOUNT': '13666666666',
-        'PASSWD': 'WeiSanJin',
-        'Email': '1162335221@qq.com'
+        'ACCOUNT': '15759801271',
+        'PASSWD': 'syl791365710',
+        'Email': '791365710@qq.com'
     }
 ]
 
