@@ -6,7 +6,7 @@
 from getInitiateId import getInitiateId, latestShareUrl
 from sendMail import sendEmails
 from yiban import YiBan
-from yiban.config import url
+#from yiban.config import url
 
 
 if __name__ == '__main__':
